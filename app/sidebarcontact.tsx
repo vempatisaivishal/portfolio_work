@@ -35,7 +35,10 @@ const SidebarContact = () => {
           onMouseEnter={() => setHoveredIndex(index)}
           onMouseLeave={() => setHoveredIndex(null)}
         >
-          <div>
+          <div style={{
+              transition: 'transform 0.3s ease-in-out',
+              transform: `scale(${hoveredIndex === index ? '1.2' : '1'})`,
+            }}>
             <SocialIcon url={link.url} bgColor={link.bgColor} fgColor={link.fgColor} className='h-5' />
           </div>
           <div
@@ -56,7 +59,12 @@ const SidebarContact = () => {
           onMouseEnter={() => setHoveredIndex(index)}
           onMouseLeave={() => setHoveredIndex(null)}
         >
-          <div>
+          <div
+            style={{
+              transition: 'transform 0.3s ease-in-out',
+              transform: `scale(${hoveredIndex === index ? '1.2' : '1'})`,
+            }}
+          >
             <SocialIcon url={link.url} bgColor={link.bgColor} fgColor={link.fgColor} className='h-5' />
           </div>
           <div

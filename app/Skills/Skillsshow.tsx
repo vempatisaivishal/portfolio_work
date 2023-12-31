@@ -86,8 +86,8 @@ function Skillsshow() {
 
             <div className='flex flex-wrap justify-center gap-4 md:gap-6 lg:gap-8 px-4 mt-8'>
                 {skillset.map((skill: Skill, index: number) => (
-                    <div className='w-full md:w-1/2 lg:w-1/6 p-2' key={index}>
-                        <Card img={skill.img} title={skill.title} />
+                    <div className='w-full md:w-1/4 lg:w-1/12 p-2' key={index}>
+                        <Card img={skill.img} title={skill.title} index={index}/>
                     </div>
                 ))}
             </div></>
