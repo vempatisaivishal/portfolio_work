@@ -27,7 +27,7 @@ const SidebarContact = () => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
-    <div className='text-lg text-blue-500 w-24 font-semibold px-4 py-2 rounded-lg top-64 sticky z-10 float-start'>
+    <div className='text-lg text-blue-500 w-24 font-semibold px-4 py-2 rounded-lg top-52 sticky z-10 float-start'>
       {resumeLink.map((link, index) => (
         <div
           key={index}

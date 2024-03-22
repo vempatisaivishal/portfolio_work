@@ -3,32 +3,31 @@ import React from 'react';
 
 interface ProjectCardProps {
   title: string;
-  author: string;
-  tags: string[];
+  Description: string; // Changed to lowercase 'd'
+  demoLink: string;
+  githubLink: string;
   imageUrl: string;
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ title, author, tags, imageUrl }) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({ title, Description, demoLink, githubLink, imageUrl }) => {
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg">
-      <Image
-        src={imageUrl}
-        alt="Fashion"
-        className="w-full"
-        width={400}
-        height={540}
-        objectFit="cover"
-      />
-      <div className="px-6 py-4 bg-black bg-opacity-50 text-white">
-        <div className="font-bold text-xl mb-2">{title}</div>
-        <p className="text-base">{author}</p>
-        <div className="pt-4">
-          {tags.map((tag, index) => (
-            <span key={index} className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-              #{tag}
-            </span>
-          ))}
-        </div>
+    <div className='bg-slate-800 rounded-lg shadow-lg p-4'>
+      <div className='h-52 w-full relative'>
+        <Image src={imageUrl} alt={title} layout='fill' objectFit='cover' className='rounded-lg' />
+      </div>
+      <div className='text-xl font-semibold mt-4 text-yellow-100'>{title}</div>
+      <div className='text-slate-100 mt-2'>{Description}</div>
+      <div className='mt-4 flex gap-4'>
+        {demoLink && (
+          <a href={demoLink} target='_blank' rel='noopener noreferrer' className='text-blue-500 font-semibold'>
+            Demo
+          </a>
+        )}
+        {githubLink && (
+          <a href={githubLink} target='_blank' rel='noopener noreferrer' className='text-blue-500 font-semibold'>
+            GitHub
+          </a>
+        )}
       </div>
     </div>
   );
