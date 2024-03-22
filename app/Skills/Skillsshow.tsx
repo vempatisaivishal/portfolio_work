@@ -90,7 +90,8 @@ function Skillsshow() {
                         <Card img={skill.img} title={skill.title} index={index}/>
                     </div>
                 ))}
-            </div></>
+            </div>
+        </>
     );
 }
 
