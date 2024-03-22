@@ -22,7 +22,7 @@ const skillset: Skill[] = [
         title: "Java"
     },
     {
-        img: "/images/python.png",
+        img: "/images/Python.png",
         title: "Python"
     },
     {
