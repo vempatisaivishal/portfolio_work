@@ -25,7 +25,7 @@ const Card: React.FC<CardProps> = ({ img, title,index }) => {
         // style={{ boxShadow: `0 4px 8px ${shadowColor}` }}
       >
         <div>
-          <Image src={img} alt={title} width={200} height={200} />
+          <Image unoptimized src={img} alt={title} width={200} height={200} />
         </div>
         <div className='text-center text-lg text-slate-100 h-12 flex items-center justify-center pt-2'>
           {title}
