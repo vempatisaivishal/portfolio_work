@@ -23,7 +23,7 @@ const skillset: Skill[] = [
     },
     {
         img: "/images/python.png",
-        title: "Python"
+        title: "python"
     },
     {
         img: "/images/htmlandcss.jfif",
@@ -79,7 +79,7 @@ const skillset: Skill[] = [
 function Skillsshow() {
     return (
         <div className='w-full'>
-            <p className='pb-1 text-4xl font-bold inline border-b-4 border-white text-orange-500 ms-10'>
+            <p className='pb-1 text-4xl font-bold inline border-b-4 border-white text-orange-500 '>
                 Skills <FontAwesomeIcon icon={faGraduationCap} className='text-4xl inline text-green-500 h-8 ms-3' />
             &nbsp;
             </p>

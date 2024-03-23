@@ -42,7 +42,7 @@ const itemVariants = {
 function Hero() {
   return (
     <div>
-    <p className='pb-1 text-4xl font-bold inline border-b-4 border-white text-orange-500 ms-10 mb-12'>
+    <p className='pb-1 text-4xl font-bold inline border-b-4 border-white text-orange-500  mb-12'>
                 Profile  
             &nbsp;
             </p >

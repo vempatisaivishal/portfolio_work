@@ -48,7 +48,7 @@ type Project = {
 function Projects() {
   return (
     <>
-      <p className='pb-1 text-4xl font-bold inline border-b-4 border-white text-orange-500 ms-36'>
+      <p className='pb-1 text-4xl font-bold inline border-b-4 border-white text-orange-500 '>
         projects <FontAwesomeIcon icon={faBriefcase} className='text-4xl inline text-green-500 h-8 ms-3' />
         &nbsp;
       </p>
