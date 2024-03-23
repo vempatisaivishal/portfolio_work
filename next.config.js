@@ -14,6 +14,9 @@ const nextConfig ={
                 {
                 hostname:'github-profile-summary-cards.vercel.app',
             },
+                {
+                hostname:'leetcard.jacoblin.cool',
+            },
         ]
       
     },
