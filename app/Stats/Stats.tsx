@@ -22,8 +22,8 @@ export default function Stats() {
            
               height={400}
               width={300}
-              src={"https://github-readme-stats.vercel.app/api/top-langs/?username=Huzaif-Ahmed&theme=tokyonight&show_icons=true&hide_border=false&layout=compact"}
-              alt="saikrishna7004"
+              src={"https://github-readme-stats.vercel.app/api/top-langs/?username=vempatisaivishal&theme=tokyonight&show_icons=true&hide_border=false&layout=compact"}
+              alt="vishal"
             ></img>
           </div>
         </ReactParallaxTilt>
@@ -33,8 +33,8 @@ export default function Stats() {
               
               height={400}
               width={500}
-              src={"https://github-readme-streak-stats.herokuapp.com/?user=Huzaif-Ahmed&theme=tokyonight&hide_border=false"}
-              alt="saikrishna7004"
+              src={"https://github-readme-streak-stats.herokuapp.com/?user=vempatisaivishal&theme=tokyonight&hide_border=false"}
+              alt="vishal"
             ></img>
           </div>
         </ReactParallaxTilt>
@@ -44,8 +44,8 @@ export default function Stats() {
               
               height={400}
               width={500}
-              src={"https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Huzaif-Ahmed&theme=github_dark&utcOffset=10"}
-              alt="saikrishna7004"
+              src={"https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=vempatisaivishal&theme=github_dark&utcOffset=10"}
+              alt="vishal"
             ></img>
           </div>
         </ReactParallaxTilt>
@@ -55,8 +55,8 @@ export default function Stats() {
              
               height={600}
               width={500}
-              src={"https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Huzaif-Ahmed&theme=github_dark"}
-              alt="saikrishna7004"
+              src={"https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vempatisaivishal&theme=github_dark"}
+              alt="vishal"
               className='bg-cover'
             ></img>
           </div>
@@ -67,8 +67,8 @@ export default function Stats() {
               
               height={400}
               width={500}
-              src={"https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Huzaif-Ahmed&theme=github_dark"}
-              alt="saikrishna7004"
+              src={"https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=vempatisaivishal&theme=github_dark"}
+              alt="vempatisaivishal"
             ></img>
           </div>
         </ReactParallaxTilt>
@@ -76,7 +76,7 @@ export default function Stats() {
           <div>
             {/* <Image unoptimized height={400} width={500} src={"https://leetcard.jacoblin.cool/rexhuzaifahmed?theme=dark&ext=heatmap"} alt="saikrishna7004" ></Image> */}
             <img
-              src={`https://leetcard.jacoblin.cool/rexhuzaifahmed?theme=dark&ext=heatmap`}
+              src={`https://leetcard.jacoblin.cool/vishalqwerty?theme=dark&ext=heatmap`}
               alt="Top Languages"
               width={500}
               height={400}

@@ -7,32 +7,32 @@ import ProjectCard from './ProjectCard';
 
 const projects = [
   {
-    title: "Shiksha Ekikaran",
-    Description: "A website for an for Government To keep track of the students and their perfomrance in the educational Instititutes so that they can implement better policies for the students",
+    title: "Advance Fake news detection",
+    Description: "An AI-powered tool that separates fact from fiction, empowering users to identify and combat misinformation across the web.",
+    Demolink: "",
+    Githublink: "https://github.com/vempatisaivishal/GlobalTruthHub",
+    imgurl: "/images/fakenews.png",
+  },
+  {
+    title: "Crop Damage Estimation",
+    Description: "A cutting-edge AI system leveraging MSCANet for precise crop damage assessment, enabling data-driven decision-making and optimized agricultural practices",
     Demolink: "",
     Githublink: "",
-    imgurl: "/images/shiksha_ekikaran.jpg",
+    imgurl:"/images/cropdamage.png"
   },
   {
-    title: "Text to video convertion using AI",
-    Description: "An Ai model which makes use of the text to speech and speech to text model to convert the text to video making boring news intresting",
-    Demolink: "https://drive.google.com/file/d/1TROmY4aPNaxLYEIIxaDwTX1djSHeo4sg/view?usp=sharing",
-    Githublink: "https://github.com/Huzaif-Ahmed/text_to_video",
-    imgurl:"/images/Text_to_video_image.jpg"
+    title: "Expense Tracker",
+    Description: "A sleek and user-friendly expense tracking application built with Next.js, Tailwind CSS, Clerk authentication, and Drizzle ORM, empowering you to effortlessly monitor and manage your finances.",
+    Demolink: "",
+    Githublink: "",
+    imgurl: "/images/expensetracker.png",
   },
   {
-    title: "GENORYZA (Research Project)",
-    Description: "Predicting the phenotypic effects of mutations in the oryza sativa genome using deep learning models using genotypic characteristics of the plant . Also Published a Research paper",
-    Demolink: "https://ijritcc.org/index.php/ijritcc/article/view/9642",
-    Githublink: "https://github.com/Huzaif-Ahmed/Agrigenomics",
-    imgurl: "/images/agrigenomics1.jpg",
-  },
-  {
-    title:"Fashion Outfit Generator",
-    Description:"An AI model which generates the fashion outfit absed on users parameters like their body shape,color,festival and many other characteristics which makes the user to look more fashionable ",
-    Demolink:"https://drive.google.com/file/d/18BzqRPsoeB2BtlC4Yw9oHQHfKHs0Nk0h/view?usp=sharing",
+    title:"Doctor Appointment System",
+    Description:"An intuitive and user-friendly doctor appointment system built with React, Strapi, and Tailwind CSS, streamlining the process of scheduling medical consultations and ensuring a seamless experience for both patients and healthcare providers",
+    Demolink:"",
     Githublink:"",
-    imgurl:"/images/outfit_generator.jpg",
+    imgurl:"/images/doctorbooking.png",
   }
   
 ];

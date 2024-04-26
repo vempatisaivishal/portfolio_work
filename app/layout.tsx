@@ -7,8 +7,8 @@ import Head from 'next/head';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Huzaif Ahmed portfolio',
-  description: "This is Mohammed Huzaif Ahmed's portfolio. Computer Science Engineering student pursuing B.Tech (2021-2025). Passionate about technology and innovation." ,
+  title: 'Vempati Sai Vishal Portfolio',
+  description: "This is Vempati Sai Vishal portfolio. Computer Science Engineering and Machine Learning student pursuing B.Tech (2021-2025). Passionate about technology and innovation." ,
 }
 
 export default function RootLayout({
